@@ -21,8 +21,8 @@
     <br />
     <b>Хобі:</b>
     <ul>
-      <li>Спорт</li>
-      <li>Малювання</li>
+      <li id="element-6">Спорт</li>
+      <li id="element-7">Малювання</li>
       <li>Шиття</li>
       <li>Комп'ютерні ігри</li>
       <li>Настільні ігри</li>
@@ -53,6 +53,17 @@
       міста. <br />
       У місті багато історичних будівель та об'єктів, пам'ятників, театрів і музеїв.
     </p>
-    <a href="https://omr.gov.ua/" target="_blank"> <img src="./imgs/odessa.jpg" alt="Одеса" /></a>
+    <div id="odessa-image-container">
+      <a id="odessa-image" href="https://omr.gov.ua/" target="_blank">
+        <img src="./imgs/odessa.jpg" alt="Одеса"
+      /></a>
+    </div>
+    <div id="buttons-container">
+      <button id="add-img" data-action="add-img">Додати</button>
+      <button id="resize-img" data-action="increase-img">Збільшити</button>
+      <button id="resize-img" data-action="decrease-img">Зменшити</button>
+      <button id="delete-img" data-action="delete-img">Видалити</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
